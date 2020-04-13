@@ -100,24 +100,28 @@ h4 {
   text-align: center;
   margin: 0;
   padding: .5rem 0 .5rem 0;
-
   font-weight: 200;
   background-color: #4d54fe;
   color: #07cce7;
 }
 
 h5 {
-  font-size: 1rem;
-  font-weight: 400;
-  background-color: inherit;
-  color: magenta;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+  padding: .5rem 0 .5rem 0;
+  font-weight: 200;
+  background-color: #4d54fe;
+  color: #07cce7;
 }
+
 
 .title {
   font-weight: 700;
   text-transform: uppercase;
   /* color: blue; */
 }
+
 
 /* forms */
 form * {
@@ -585,10 +589,21 @@ nav a:hover {
   }
 
   h4 {
-    font-size: 2rem;
-    /* color: magenta; */
-    /* font-weight: 200; */
-    /* margin: 0; */
+    font-size: 1.75rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    color: magenta;
+    font-weight: 200;
+    margin: 0;
+  }
+
+  h5 {
+    font-size: 1.75rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    color: magenta;
+    font-weight: 200;
+    margin: 0;
   }
 }
 
