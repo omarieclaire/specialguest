@@ -14,7 +14,6 @@ img {
   height: auto;
   margin: 0;
   padding: 0;
-
 }
 
 .vidContent {
@@ -29,7 +28,6 @@ img {
 .container {
   width: 100%;
 }
-
 
 /* text
 =================== */
@@ -98,14 +96,15 @@ h3 {
 }
 
 h4 {
-  font-size: 1.2rem;
-  background-color: inherit;
-  text-align: left;
-  margin: 1.5rem 0 0.3rem 0;
-font-weight: 600;
-  color: magenta;
-}
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+  padding: .5rem 0 .5rem 0;
 
+  font-weight: 200;
+  background-color: #4d54fe;
+  color: #07cce7;
+}
 
 h5 {
   font-size: 1rem;
@@ -119,7 +118,6 @@ h5 {
   text-transform: uppercase;
   /* color: blue; */
 }
-
 
 /* forms */
 form * {
@@ -138,16 +136,13 @@ input focus {
 }
 
 input:focus {
-    outline:none;
+  outline: none;
 }
-
-
 
 form #textarea {
   height: 164px;
   resize: none;
 }
-
 
 /* lists */
 ul {
@@ -189,15 +184,13 @@ hr {
 @media (min-width:60rem) {
   p {
     margin-top: 0;
-      font-size: 1.2rem;
-      line-height: 1.5;
+    font-size: 1.2rem;
+    line-height: 1.5;
   }
 
-  .title {
-  }
+  .title {}
 
-  hr.blog-preview-divider {
-  }
+  hr.blog-preview-divider {}
 }
 
 /* buttons */
@@ -218,7 +211,6 @@ hr {
   font-weight: 100;
   letter-spacing: 0.06em;
   text-transform: none;
-
 }
 
 .button-invisible {
@@ -235,7 +227,10 @@ hr {
   color: magenta;
   border-style: solid;
   border-width: 1px;
-  margin: 0 0em 2em 0em;
+    margin: 0em 0em 17em 0em;}
+
+.contact-button {
+  margin: 0 0em 4em 0em;
 }
 
 .button:hover,
@@ -247,9 +242,7 @@ hr {
   border-color: rgba(50, 128, 114, 0.3);
 }
 
-
 @media (min-width: 60rem) {
-
   .button {}
 
   .button-port {
@@ -274,11 +267,10 @@ hr {
 
   table {
     width: 100%;
-   border-collapse: collapse;
+    border-collapse: collapse;
     border-spacing: 1px;
     border: 1px solid #fa8071;
   }
-
 }
 
 .highlightme {
@@ -307,7 +299,6 @@ header {
 .oval-logo {
   width: 8rem;
   padding: .5rem .5rem .5rem .5rem;
-
   display: flex;
   flex-direction: row;
   align-self: flex-end;
@@ -330,7 +321,6 @@ header {
 .nav-toggle-label {
   padding: 1.5rem 1.5rem 0 0;
   /* color: magenta; */
-
 }
 
 .nav-toggle-label span,
@@ -401,7 +391,6 @@ nav a:hover {
   background-color: inherit;
   /* color: #000; */
   /* color: magenta; */
-
 }
 
 .nav-toggle:checked~nav {
@@ -480,14 +469,13 @@ nav a:hover {
     font-weight: 600;
     /* color: green; */
     /* padding: 1rem 0rem 0 8rem; */
-
   }
 
   nav li {
     /* color:blue; */
     margin-left: 2em;
     margin-bottom: 0;
-      /* background: #232323; */
+    /* background: #232323; */
     /* filter: hue-rotate(9f0deg); */
   }
 
@@ -513,8 +501,6 @@ nav a:hover {
   nav a:hover::before {
     transform: scale(1, 1);
   }
-
-
 }
 
 /* head-home
@@ -530,7 +516,6 @@ nav a:hover {
 @media (min-width: 60rem) {
   .home-head {
     /* z-index: 2; */
-
     /* height: 150vh; */
     /* padding-top: 12vh; */
     /* padding-bottom: 9vh; */
@@ -544,7 +529,8 @@ nav a:hover {
   background-color: #dafff3;
   background-size: cover;
   background-position: center;
-  padding: 2em 3em 2em 3em;  /* color: white; */
+  padding: 2em 3em 2em 3em;
+  /* color: white; */
 }
 
 .center {
@@ -555,20 +541,16 @@ nav a:hover {
   .text-box {
     padding: 1rem 20rem 6rem 20rem;
     /* z-index: 2; */
-
     /* height: 150vh; */
     /* padding-top: 12vh; */
     /* padding-bottom: 9vh; */
   }
 }
 
-
 /* general text padding */
-@media (min-width: 37rem) {
-}
+@media (min-width: 37rem) {}
 
-@media (min-width: 60rem) {
-}
+@media (min-width: 60rem) {}
 
 /* h1 h2 desktop */
 @media (min-width: 60rem) {
@@ -577,14 +559,17 @@ nav a:hover {
     text-align: left;
     letter-spacing: 0.15em;
     font-weight: 200;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin: 0;
     /* padding-left: 2rem; */
   }
 
   h2 {
     font-size: 3rem;
-    padding: 0em 0em 0em 0em;
+    padding: 1em 0em 1em 0em;
+    margin: 0;
+
   }
 
   span.subtitle {
@@ -600,10 +585,10 @@ nav a:hover {
   }
 
   h4 {
-    font-size: 1.3rem;
-    color: magenta;
-    font-weight: 300;
-    margin: 0;
+    font-size: 2rem;
+    /* color: magenta; */
+    /* font-weight: 200; */
+    /* margin: 0; */
   }
 }
 
@@ -611,7 +596,7 @@ nav a:hover {
 =================== */
 .portfolio {
   margin: 0em;
-  display:block;
+  display: block;
   overflow: hidden;
 }
 
@@ -623,6 +608,7 @@ nav a:hover {
 .port-item img {
   display: block;
   width: 100vw;
+  border: 1px solid rgba(77, 84, 254, 0.01);
 }
 
 .port-desc {
@@ -635,7 +621,6 @@ nav a:hover {
 /* .port-desc p {
   margin: 0em;
 } */
-
 @media (min-width: 37rem) {
   .port-item {
     width: 50%;
@@ -656,7 +641,6 @@ nav a:hover {
   .port-item:hover .port-desc {
     transform: translateY(0%);
     transition: ease-in-out 200ms;
-
   }
 }
 
@@ -677,10 +661,11 @@ nav a:hover {
 .contact {
   text-align: center;
   object-position: center;
-  margin-top: .5rem;
-  /* Add a top margin */
-  margin-bottom: 1rem;
-  /* Bottom margin */
+  background-color: inherit;
+  background-image: url(img/contact-small.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
 }
 
 /* Footer
@@ -688,11 +673,11 @@ nav a:hover {
 footer {
   padding: 1em;
   background-color: #aad5e0;
-  color:magenta;
+  color: magenta;
   text-align: center;
   z-index: 999;
   width: 100%;
-  border-top: 5px solid rgba(250, 128, 114, 0.3);
+  /* border-top: 5px solid rgba(250, 128, 114, 0.3); */
 }
 
 .socialIcons {
@@ -707,7 +692,6 @@ footer {
   width: 22px;
   height: 22px;
   margin: .3em 1em .3em 1em;
-
   /* opacity: 0.3; */
 }
 
