@@ -413,7 +413,7 @@ nav a:hover {
   transition: opacity 250ms ease-in-out 250ms;
 }
 
-.shape-logo {
+.header-img {
   width: 100%;
   margin-top: .5rem;
 }
@@ -430,13 +430,13 @@ nav a:hover {
     margin-bottom: 2rem;
   }
 
-  .shape-logo {
+  .header-img {
     grid-column: 2 / 3;
     /* width: 100%; */
     /* margin: 10rem; */
   }
 
-  .shape-logo:hover,
+  .header-img:hover,
   .button:focus {
     /* background: #232323; */
     filter: hue-rotate(20deg);
