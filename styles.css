@@ -127,6 +127,11 @@ h5 {
   /* color: blue; */
 }
 
+.bar-link {
+      background-color: #00cfe7;
+}
+
+
 
 /* forms */
 form * {
@@ -246,6 +251,13 @@ hr {
   border-style: solid;
   border-width: 1.5px;
   margin: 1em 0em 17em 0em;
+}
+
+.more-button {
+  font-size: 1.5rem;
+  width: 100%;
+  background-color: #f7a617;
+  color: #4d53ff;
 }
 
 .contact-button {
