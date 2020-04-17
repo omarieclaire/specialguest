@@ -95,6 +95,7 @@ h2 {
   color: magenta;
   font-size: 1.3rem;
   font-weight: 400;
+  margin: 0;
 }
 
 h3 {
@@ -688,7 +689,7 @@ nav a:hover {
 .bg-col-5 {
   /* b green */
 
-  background-color: #43f500;
+  background-color: #67c544;
 }
 
 .bg-col-6 {
