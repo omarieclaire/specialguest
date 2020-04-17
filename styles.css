@@ -655,7 +655,7 @@ nav a:hover {
 }
 
 .port-item img {
-  background-color: yellow;
+  background-color: #4d53ff;
   display: block;
   width: 100vw;
   border: 1px solid rgba(77, 84, 254, 0.01);
