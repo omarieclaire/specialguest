@@ -655,10 +655,45 @@ nav a:hover {
 }
 
 .port-item img {
-  background-color: #4d53ff;
+  /* background-color: #4d53ff; */
   display: block;
   width: 100vw;
   border: 1px solid rgba(77, 84, 254, 0.01);
+}
+
+.bg-col-1 {
+  /* orange */
+  background-color: #f7a617;
+}
+
+.bg-col-2 {
+  /* d blue */
+  background-color: #4d53ff
+;
+}
+
+.bg-col-3 {
+  /* pink */
+
+  background-color: #e26ffb;
+}
+
+.bg-col-4 {
+  /* l blue */
+
+  background-color: #07cce7;
+}
+
+.bg-col-5 {
+  /* b green */
+
+  background-color: #43f500;
+}
+
+.bg-col-6 {
+  /* orange */
+
+  background-color: #f7a617;
 }
 
 .port-desc {
