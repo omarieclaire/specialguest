@@ -20,6 +20,10 @@ img {
   padding: 0;
 }
 
+.clear {
+  background: yellow;
+}
+
 .vidContent {
   width: 50vw;
   margin: auto;
@@ -646,9 +650,12 @@ nav a:hover {
 .port-item {
   margin: 0em;
   position: relative;
+  overflow: hidden;
+
 }
 
 .port-item img {
+  background-color: yellow;
   display: block;
   width: 100vw;
   border: 1px solid rgba(77, 84, 254, 0.01);
