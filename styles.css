@@ -449,6 +449,10 @@ nav a:hover {
   margin-top: .5rem;
 }
 
+.contact-header-img {
+  background: #24a7c8;
+}
+
 @media screen and (min-width: 800px) {
   .nav-toggle-label {
     display: none;
@@ -746,7 +750,8 @@ nav a:hover {
   display: block;
   text-align: center;
   /* object-position: center; */
-  background-color: #23a7c7;
+  /* background-color: #23a7c7; */
+  background: #24a7c8;
   /* background-image: url(img/contact-small.png); */
   /* background-repeat: no-repeat; */
   background-size: 100%;
