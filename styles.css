@@ -446,11 +446,12 @@ nav a:hover {
 
 .header-img {
   width: 100%;
-  margin-top: .5rem;
 }
 
 .contact-header-img {
   background: #24a7c8;
+  background: radial-gradient(closest-corner at 50% 80%, #00cfe7 65%, #23a7c7 65%);
+
 }
 
 @media screen and (min-width: 800px) {
@@ -467,13 +468,10 @@ nav a:hover {
 
   .header-img {
     grid-column: 2 / 3;
-    /* width: 100%; */
-    /* margin: 10rem; */
   }
 
   .header-img:hover,
   .button:focus {
-    /* background: #232323; */
     filter: hue-rotate(20deg);
   }
 
@@ -552,11 +550,7 @@ nav a:hover {
 /* head-home
 =================== */
 .home-head {
-  /* background-image: url(img/head-bg.jpg); */
-  /* background-size: cover; */
   background-position: center;
-  /* padding: 1em 0; */
-  /* color: white; */
 }
 
 @media (min-width: 60rem) {
@@ -752,6 +746,7 @@ nav a:hover {
   /* object-position: center; */
   /* background-color: #23a7c7; */
   background: #24a7c8;
+  background: radial-gradient(closest-corner at 50% 40%, #00cfe7 65%, #23a7c7 65%);
   /* background-image: url(img/contact-small.png); */
   /* background-repeat: no-repeat; */
   background-size: 100%;
