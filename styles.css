@@ -60,6 +60,12 @@ p {
   padding: 1.5em 0 0 0;
 }
 
+/* section p:first-of-type {
+    font-size: 120%;
+    background-color: orange;
+    font-weight: bold;
+} */
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
   /* text-align: center; */
