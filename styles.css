@@ -293,16 +293,26 @@ hr {
 }
 
 .more-button {
+  display: inline-block;
+  /* font-size: 1.11rem; */
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  padding: .6em 3em;
   font-size: 1.5rem;
-  width: 100%;
-  padding: 1rem 0 1rem 0;
-  background-color: magenta;
+  padding: 0.5rem;
+  margin: 1.5rem;
+  background-color: #047ec5;
   font-weight: 200;
   color: white;
   text-align: center;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  /* border-top: 1px solid white; */
+  /* border-bottom: 1px solid white; */
   letter-spacing: 0.12rem;
+}
+
+.more-button:hover {
+  background-color: #29bfe2;
 }
 
 .contact-button {
