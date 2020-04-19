@@ -237,8 +237,8 @@ hr {
 }
 
 .button-port {
-  background: #0a3039;
-  color: magenta;
+  background: #dafff3;
+  color: #4d53ff;
   width: 100%;
   font-size: 1rem;
   font-weight: 100;
@@ -285,12 +285,12 @@ hr {
   font-size: 1.5rem;
   width: 100%;
   padding: .75rem 0 .75rem 0;
-  /* margin: 0 0 0 0; */
   background-color: #27a5c5;
-  color: #f7a617;
+  font-weight: 200;
+  color: white;
   text-align: center;
-  border-top: 1px solid yellow;
-  border-bottom: 1px solid yellow;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 .contact-button {
@@ -300,9 +300,9 @@ hr {
 .button:hover,
 .button:focus {
   /* background: #232323; */
-  background: #27a5c5;
+  background: #4fb3cd;
   color: white;
-  /* font-weight: bold; */
+  font-weight: 400;
   border-color: rgba(50, 128, 114, 0.3);
 }
 
@@ -316,7 +316,7 @@ hr {
   .button {}
 
   .button-port {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .button-invisible {
