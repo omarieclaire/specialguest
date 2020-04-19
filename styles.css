@@ -284,9 +284,9 @@ hr {
 }
 
 .book-button {
-  background-color: #07cce7;
+  background-color: magenta;
   font-size: 1rem;
-  color: magenta;
+  color: #07cce7;
   border-style: solid;
   border-width: 1.5px;
   margin: 2em 0em 2em 0em;
