@@ -7,7 +7,11 @@
   /* transition: all ease-in-out 10ms; */
 }
 
-#more {display: none;}
+#more {
+  display: none;
+  /* transition: transform 30s ease-in-out; */
+
+}
 
 .wrapper {
   position: relative;
@@ -305,7 +309,7 @@ hr {
   /* background: #232323; */
   background: #4fb3cd;
   color: white;
-  font-weight: 400;
+  font-weight: 300;
   border-color: rgba(50, 128, 114, 0.3);
 }
 
@@ -696,32 +700,44 @@ nav a:hover {
 
 .bg-col-1 {
   /* orange */
-  background-color: #f7a617;
+  /* background-color: #f7a617; */
+  background-color: #ffd07e;
+
 }
 
 .bg-col-2 {
   /* d blue */
-  background-color: #4d53ff;
+  /* background-color: #4d53ff; */
+  background-color: #999cff;
+
 }
 
 .bg-col-3 {
   /* pink */
-  background-color: #e26ffb;
+  /* background-color: #e26ffb; */
+  background-color: #eea2ff;
+
 }
 
 .bg-col-4 {
   /* l blue */
-  background-color: #07cce7;
+  /* background-color: #07cce7; */
+  background-color: #5dc7d5;
+
 }
 
 .bg-col-5 {
   /* b green */
-  background-color: #67c544;
+  /* background-color: #67c544; */
+  background-color: #85cb6b;
+
 }
 
 .bg-col-6 {
   /* l pink */
-  background-color: #feb2f1;
+  /* background-color: #feb2f1; */
+  background-color: #e0dc75;
+
 }
 
 .port-desc {
