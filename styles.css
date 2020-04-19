@@ -119,8 +119,8 @@ h3 {
   font-size: 1.1rem;
   font-weight: 500;
   margin: 0;
-  /* background-color: yellow; */
   color: blue;
+
 }
 
 h4 {
@@ -217,8 +217,9 @@ hr {
 @media (min-width:60rem) {
   p {
     margin-top: 0;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    padding: 0;
   }
 
   .title {}
@@ -273,7 +274,7 @@ hr {
 }
 
 .book-button {
-  background-color: #f9a811;
+  background-color: #07cce7;
   font-size: 1rem;
   color: #4d53ff;
   border-style: solid;
@@ -648,7 +649,7 @@ nav a:hover {
   h3 {
     font-size: 1.9rem;
     padding-top: .5rem;
-    padding-bottom: .5rem;
+    padding-bottom: 3rem;
   }
 
   h4 {
