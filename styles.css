@@ -104,6 +104,7 @@ h1 {
   margin-bottom: 2rem;
 }
 
+
 span.subtitle {
   font-size: 7rem;
   letter-spacing: 0.1em;
@@ -121,11 +122,12 @@ h2 {
   font-weight: 400;
 }
 
+
 h3 {
   font-size: 1.1rem;
   font-weight: 500;
   margin: 0;
-  color: blue;
+  color: #0f7f9a;
 
 }
 
@@ -141,6 +143,7 @@ h4 {
 
 h5 {
   font-size: 1.5rem;
+  color: blue;
   text-align: center;
   margin: 0;
   padding: .5rem 0 .5rem 0;
@@ -613,6 +616,10 @@ nav a:hover {
   text-align: center;
 }
 
+.blue-background {
+  background-color: #23a7c7;
+}
+
 @media (min-width: 60rem) {
   .text-box {
     padding: 1rem 20rem 6rem 20rem;
@@ -669,12 +676,11 @@ nav a:hover {
   }
 
   h5 {
-    font-size: 2rem;
-    /* margin-top: 2rem; */
-    /* padding-top: 2rem; */
-    /* padding-bottom: 1rem; */
-    color: magenta;
-    font-weight: 200;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #c1f3ff;
+    font-weight: 100;
   }
 }
 
@@ -684,6 +690,11 @@ nav a:hover {
   margin: 0em;
   display: block;
   overflow: hidden;
+}
+
+port-header {
+  margin: 0;
+
 }
 
 .port-item {
