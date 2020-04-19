@@ -522,11 +522,15 @@ nav a:hover {
     margin: 2rem 0 0 2rem;
   }
 
-  .oval-logo:hover,
-  .button:focus {
-    /* background: #232323; */
+  .oval-logo:hover {
     filter: hue-rotate(280deg);
   }
+
+  /* .oval-logo:hover, */
+  /* .button:focus { */
+    /* background: #232323; */
+    /* filter: hue-rotate(280deg); */
+  /* } */
 
   nav {
     /* add Edge support */
