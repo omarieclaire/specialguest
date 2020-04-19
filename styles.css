@@ -251,6 +251,7 @@ hr {
   font-weight: 100;
   letter-spacing: 0.06em;
   text-transform: none;
+  padding: .5em 1em .5em 1em;
 }
 
 .button-invisible {
