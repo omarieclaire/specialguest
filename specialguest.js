@@ -5,13 +5,13 @@
 
     if (dots.style.display === "none") {
       dots.style.display = "inline";
-      btnText.innerHTML = "See More Guests";
+      btnText.innerHTML = "See More";
       moreText.style.display = "none";
       var guestsContainer = document.getElementById("guests");
       guestsContainer.scrollIntoView(false);
     } else {
       dots.style.display = "none";
-      btnText.innerHTML = "See less";
+      btnText.innerHTML = "See Less";
       moreText.style.display = "inline";
     }
   }

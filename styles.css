@@ -26,6 +26,13 @@ img {
   padding: 0;
 }
 
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+
 .clear {
   background: yellow;
 }
@@ -94,34 +101,37 @@ body {
 
 h1 {
   /* text-align: center; */
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   background-color: inherit;
-  color: rgba(100, 0, 130, 0.81);
-  font-size: 2rem;
-  letter-spacing: 0.08em;
-  font-weight: 200;
+  color: magenta;
+  font-size: 1.3rem;
+  font-weight: 400;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  letter-spacing: 0.08em;
+
 }
 
 
-span.subtitle {
-  font-size: 7rem;
-  letter-spacing: 0.1em;
+.subH1 {
+  /* letter-spacing: 0.1em; */
   background-color: inherit;
-  color: rgba(100, 0, 130, 0.71);
-  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
   margin-bottom: 0rem;
-  text-transform: initial;
+  color: #24a7c8;
 }
 
 h2 {
   background-color: inherit;
   color: magenta;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 400;
 }
 
+.firstH2 {
+  margin: 6rem 0 0 0;
+}
 
 h3 {
   font-size: 1.1rem;
@@ -219,9 +229,21 @@ hr {
   border: none;
   border-top: 1px double #333;
   text-align: center;
-  width: 3rem;
+  width: 4rem;
+  color: #333;
+  padding-top: 0;
+
   padding-bottom: 1rem;
 }
+
+/* hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+} */
 
 @media (min-width:60rem) {
   p {
@@ -294,22 +316,26 @@ hr {
 
 .more-button {
   display: inline-block;
-  /* font-size: 1.11rem; */
-  text-decoration: none;
   text-align: center;
-  text-transform: uppercase;
   padding: .6em 3em;
   font-size: 1.5rem;
-  padding: 0.5rem;
-  margin: 1.5rem;
+  margin: 1.2rem;
   background-color: #047ec5;
   font-weight: 200;
   color: white;
   text-align: center;
-  /* border-top: 1px solid white; */
-  /* border-bottom: 1px solid white; */
+  border: 1px solid white;
   letter-spacing: 0.12rem;
 }
+
+/* .more-button {
+  display: inline-block;
+  padding: .6em 3em;
+  margin: 1.2rem;
+  background-color: #047ec5;
+  text-align: center;
+  border: 1px solid white;
+} */
 
 .more-button:hover {
   background-color: #29bfe2;
@@ -625,6 +651,7 @@ nav a:hover {
   background-size: cover;
   background-position: center;
   padding: 2em 3em 2em 3em;
+  width: 100%;
   /* color: white; */
 }
 
@@ -651,12 +678,11 @@ nav a:hover {
 
 @media (min-width: 60rem) {}
 
-/* h1 h2 desktop */
+/* h1 h1 desktop */
 @media (min-width: 60rem) {
   h1 {
-    font-size: 2rem;
-    text-align: left;
-    letter-spacing: 0.15em;
+    font-size: 3rem;
+    letter-spacing: 0.02em;
     font-weight: 200;
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -664,16 +690,17 @@ nav a:hover {
     /* padding-left: 2rem; */
   }
 
-  h2 {
-    font-size: 3rem;
-    padding: 1em 0em 1em 0em;
-    margin: 0;
+  .subH1 {
+    font-size: 2rem;
+    color: #0598be;
+    /* padding-top: .5rem; */
+    /* padding-bottom: 3rem; */
   }
 
-  span.subtitle {
-    font-size: 1.5rem;
+  h2 {
+    font-size: 2.6rem;
+    padding: 1em 0em 1em 0em;
     margin: 0;
-    line-height: 0;
   }
 
   h3 {
@@ -706,6 +733,7 @@ nav a:hover {
   margin: 0em;
   display: block;
   overflow: hidden;
+  /* border-top: 8px solid #00cfe8; */
 }
 
 port-header {
@@ -851,7 +879,7 @@ footer {
   flex-direction: row;
   justify-content: center;
   /* margin: .3em 1em .3em 1em; */
-  opacity: 0.4;
+  /* opacity: 0.4; */
 }
 
 .socialIcon {
