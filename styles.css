@@ -375,7 +375,8 @@ strong {
 }
 
 .slightBold {
-  font-weight: 500;
+  font-weight: 600;
+  /* color: blue; */
 }
 
 /* header
