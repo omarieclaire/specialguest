@@ -10,7 +10,6 @@
 #more {
   display: none;
   /* transition: transform 30s ease-in-out; */
-
 }
 
 .wrapper {
@@ -41,9 +40,7 @@ img {
   font-size: 0;
 }
 
-.hover-text-before:hover {
-
-}
+.hover-text-before:hover {}
 
 .hover-text-before:hover:after {
   content: attr(data-hover);
@@ -67,7 +64,7 @@ img {
 =================== */
 /* links */
 a {
-  color: #f101c4;
+  color: #c101f1;
   text-decoration: none;
   background-color: inherit;
 }
@@ -75,6 +72,7 @@ a {
 a:hover {
   color: magenta;
   background-color: inherit;
+  /* border-bottom: 2px dashed; */
 }
 
 p {
@@ -109,9 +107,7 @@ h1 {
   margin-top: 2rem;
   margin-bottom: 2rem;
   letter-spacing: 0.08em;
-
 }
-
 
 .subH1 {
   /* letter-spacing: 0.1em; */
@@ -137,8 +133,7 @@ h3 {
   font-size: 1.1rem;
   font-weight: 500;
   margin: 0;
-  color: #0f7f9a;
-
+  color: #4e53ff;
 }
 
 h4 {
@@ -232,7 +227,6 @@ hr {
   width: 4rem;
   color: #333;
   padding-top: 0;
-
   padding-bottom: 1rem;
 }
 
@@ -244,7 +238,6 @@ hr {
     text-align: center;
     height: 5px;
 } */
-
 @media (min-width:60rem) {
   p {
     margin-top: 0;
@@ -336,7 +329,6 @@ hr {
   text-align: center;
   border: 1px solid white;
 } */
-
 .more-button:hover {
   background-color: #29bfe2;
 }
@@ -566,10 +558,9 @@ nav a:hover {
 
   /* .oval-logo:hover, */
   /* .button:focus { */
-    /* background: #232323; */
-    /* filter: hue-rotate(280deg); */
+  /* background: #232323; */
+  /* filter: hue-rotate(280deg); */
   /* } */
-
   nav {
     /* add Edge support */
     /* position: absolute; */
@@ -738,7 +729,6 @@ nav a:hover {
 
 port-header {
   margin: 0;
-
 }
 
 .port-item {
@@ -748,52 +738,50 @@ port-header {
 }
 
 .port-item img {
-  /* background-color: #4d53ff; */
   display: block;
   width: 100vw;
   /* border: 1px solid rgba(77, 84, 254, 0.01); */
+}
+
+.port-item img:hover {
+  /* filter: hue-rotate(20deg); */
+  filter: saturate(150%);
 }
 
 .bg-col-1 {
   /* orange */
   /* background-color: #f7a617; */
   background-color: #ffd07e;
-
 }
 
 .bg-col-2 {
   /* d blue */
   /* background-color: #4d53ff; */
   background-color: #999cff;
-
 }
 
 .bg-col-3 {
   /* pink */
   /* background-color: #e26ffb; */
   background-color: #eea2ff;
-
 }
 
 .bg-col-4 {
   /* l blue */
   /* background-color: #07cce7; */
   background-color: #5dc7d5;
-
 }
 
 .bg-col-5 {
   /* b green */
   /* background-color: #67c544; */
   background-color: #85cb6b;
-
 }
 
 .bg-col-6 {
   /* l pink */
   /* background-color: #feb2f1; */
   background-color: #e0dc75;
-
 }
 
 .port-desc {
