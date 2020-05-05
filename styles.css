@@ -168,14 +168,24 @@ h5 {
 
 /* forms */
 form * {
-  font-size: 1rem;
+  font-size: 1.4rem;
   letter-spacing: 0.075em;
   font-weight: 300;
   /* cursor: pointer; */
   text-decoration: none;
   width: 100%;
   position: relative;
-  margin-bottom: 15px;
+  margin: 15px 5px 15px 5px;
+  padding: .5rem;
+  outline: none;
+   border: 1px solid #CCC;
+   border-radius: .15em;
+
+}
+
+input:focus,
+textarea:focus {
+  border-color: magenta;
 }
 
 input focus {
@@ -186,9 +196,11 @@ input:focus {
   outline: none;
 }
 
-form #textarea {
-  height: 164px;
-  resize: none;
+form .largetextarea {
+  /* resize: none; */
+  vertical-align: top;
+  min-height: 140px;
+  padding-top: 10px;
 }
 
 /* lists */

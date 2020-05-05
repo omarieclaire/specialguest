@@ -87,18 +87,23 @@
             </script>
             <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='https://specialguest.best';}"></iframe>
 
-            <!-- <form class="form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScuErXbmkEV4UwhFx0RtFflnUZi4Durpc0W7e_VKmRxHWBGKw/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
-              <label>Name</label>
+            <form class="form" id="contact-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScuErXbmkEV4UwhFx0RtFflnUZi4Durpc0W7e_VKmRxHWBGKw/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
               <input name="entry.1971754031" type="text" placeholder="Name" />
               <br>
-              <label>Email</label>
               <input name="entry.1639938310" type="email" placeholder="Email" />
               <br>
-
+              <!-- <label>Topic</label> -->
+              <select name="entry.1188651803">
+                <option name="entry.1188651803" data-value="one">Booking a Special Guest</option>
+                <option name="entry.1188651803" data-value="two">Becoming a Special Guest</option>
+                <option name="entry.1188651803" data-value="three">Other</option>
+              </select>
               <br>
-              <input type="submit" value="Send" />
-
-            </form> -->
+              <textarea name="entry.573376041" rows="4"  placeholder="Message"></textarea>
+              <br>
+              <br>
+              <input class="button cta-button" type="submit" value="Send" />
+            </form>
 
           </div>
         </section>

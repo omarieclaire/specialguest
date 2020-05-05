@@ -15,3 +15,12 @@
       moreText.style.display = "inline";
     }
   }
+
+  // function formSubmitted(event){
+  //   console.log("form being called");
+  //   var contactForm = document.getElementById("contact-form");
+  //   contactForm.style.display = none;
+  //   event.preventDefault();
+  //
+  // }
+  // document.getElementById("contact-form").addEventListener("submit", formSubmitted);
