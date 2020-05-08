@@ -32,6 +32,10 @@ img {
   /* width: 50%; */
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .clear {
   background: yellow;
 }
@@ -168,6 +172,7 @@ h5 {
 
 /* forms */
 form * {
+  font-family: inherit;
   font-size: 1.4rem;
   letter-spacing: 0.075em;
   font-weight: 300;
@@ -202,6 +207,10 @@ form .largetextarea {
   min-height: 140px;
   padding-top: 10px;
 }
+
+
+
+
 
 /* lists */
 ul {
