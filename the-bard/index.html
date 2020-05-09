@@ -87,6 +87,75 @@
           </div>
           <a class="button book-button" href="mailto:hello@specialguest.best?subject=Booking:%20The%20Bard&body=Hi,%20I%20am%20writing%20to%20request%20The%20Bard%20Special%20Guest." target="_blank">Request The Bard!</a>
 
+
+          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='https://specialguest.best/thanks';}"></iframe>
+
+          <form class="form" id="contact-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd-C9On-hu7QAquYRBEOQ4PaKNuLvwDMtbg7_N2gOQHfaxguA/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+
+<label class="hidden" for="email">Email: </label>
+            <input name="entry.1289612806" id="email" type="email" placeholder="Email" />
+            <br>
+            <label class="hidden" for="name">Name: </label>
+            <input name="entry.256253619" id="name" type="text" placeholder="Name" />
+            <br>
+            <label class="hidden" for="Organization">Organization: </label>
+            <input name="entry.1897031347" id="Organization" type="text" placeholder="Organization" />
+            <br>
+            <label class="hidden" for="datepicker">Datepicker: </label>
+
+            <input name="entry.1722412452" id="datepicker" type="date" />
+            <!-- <input name="entry.1722412452_year" type="date" /> -->
+            <!-- <input name="entry.1722412452_month" type="date" /> -->
+            <!-- <input name="entry.1722412452_day" type="date" /> -->
+
+            <!-- <br>
+            <label class="hidden" for="duration">Duration: </label>
+
+            <input name="entry.1406549622" id="duration" type="text" placeholder="How long would you like them to stay?" />
+            <br> -->
+
+            <label class="hidden" for="guest">guest</label>
+            <select name="entry.1336024798" id="guest">
+              <!-- <option name="entry.1336024798" data-value="one">The ANIMAL</option>
+              <option name="entry.1336024798" data-value="two">The Art Window</option> -->
+              <option name="entry.1336024798" data-value="three">The Bard</option>
+              <!-- <option name="entry.1336024798" data-value="four">The Blatherer</option>
+              <option name="entry.1336024798" data-value="five">The Chatty Bubbles</option>
+              <option name="entry.1336024798" data-value="six">The Critic</option>
+              <option name="entry.1336024798" data-value="seven">The Dancer</option>
+              <option name="entry.1336024798" data-value="eight">The Decision Maker</option>
+              <option name="entry.1336024798" data-value="nine">The Diversion</option>
+              <option name="entry.1336024798" data-value="ten">The Finisher</option>
+              <option name="entry.1336024798" data-value="eleven">The Funny Buddy</option>
+              <option name="entry.1336024798" data-value="twelve">The Grandma</option>
+              <option name="entry.1336024798" data-value="thirteen">The Human Timer</option>
+              <option name="entry.1336024798" data-value="fourteen">The Hype Friend</option>
+              <option name="entry.1336024798" data-value="fifteen">The Icebreaker</option>
+              <option name="entry.1336024798" data-value="seventeen">The Laugh Track</option>
+              <option name="entry.1336024798" data-value="eighteen">The Listener</option>
+              <option name="entry.1336024798" data-value="nineteen">The Musician</option>
+              <option name="entry.1336024798" data-value="nineteen">The Playful Friend</option>
+              <option name="entry.1336024798" data-value="twenty-one">The Questioner</option>
+              <option name="entry.1336024798" data-value="twenty-two">The Replacement</option>
+              <option name="entry.1336024798" data-value="twenty-three">The Scapegoat</option>
+              <option name="entry.1336024798" data-value="twenty-four">The Tea Time</option>
+              <option name="entry.1336024798" data-value="twenty-five">The Techno Party</option>
+              <option name="entry.1336024798" data-value="twenty-six">The Translatorian </option> -->
+              <option name="entry.1336024798" data-value="twenty-seven">Undecided</option>
+
+            </select>
+
+
+            <br>
+            <label class="hidden" for="message">Message: </label>
+
+            <textarea name="entry.362597712" id="message" rows="4" maxlength="800" placeholder="Anything else we should know?"></textarea>
+            <br>
+            <br>
+            <input class="button cta-button" type="submit" value="Send" />
+          </form>
+
+
         </section>
       </div>
     </main>
