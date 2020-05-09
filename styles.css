@@ -34,6 +34,7 @@ img {
 
 .hidden {
   visibility: hidden;
+  display: none;
 }
 
 .clear {
@@ -307,7 +308,8 @@ hr {
   color: #4d53ff;
   border-style: solid;
   border-width: 1.5px;
-  margin: 0em 0em 17em 0em;
+  /* margin: auto; */
+  /* width: 50%; */
 }
 
 .say-hello-button {
